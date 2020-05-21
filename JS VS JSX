@@ -1,0 +1,16 @@
+//JS
+React.createElement(
+ 'hi',
+ null,
+ 'React'
+ ),
+ 
+ //HTML
+ <header>
+ <h1><React><h1>
+ </header>
+ 
+ ## JSX
+ <h1>
+  React
+ </h1>
