@@ -1,0 +1,23 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+
+const people = [
+ { name: 'Ty'},
+ { name: 'Joe'},
+ { name: 'Karen'}
+ ]
+ 
+
+//React.createElement( /* type */, /* props */, /* content */ );
+
+const element = <ol>
+  {people.map((person) =>(
+  <li key={person.name}>{person.name}</li>
+  ))}
+  </ol>
+
+ReactDOM.render(
+    element,
+    document.getElementById('root')
+    )
